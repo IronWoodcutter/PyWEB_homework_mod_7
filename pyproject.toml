@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyweb-homework-mod-7-test-1"
+version = "0.1.0"
+description = ""
+authors = ["IronWoodcutter <a.v.vlasov@ukr.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.23"
+alembic = "^1.12.1"
+psycopg2 = "^2.9.9"
+faker = "^19.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
